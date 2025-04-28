@@ -1,0 +1,10 @@
+# Dockerfile para PostgreSQL
+FROM postgres:latest
+
+# Configurações básicas
+ENV POSTGRES_USER=admin
+ENV POSTGRES_PASSWORD=admin
+ENV POSTGRES_DB=satisfacao
+
+# Expor a porta padrão do PostgreSQL
+EXPOSE 5432
